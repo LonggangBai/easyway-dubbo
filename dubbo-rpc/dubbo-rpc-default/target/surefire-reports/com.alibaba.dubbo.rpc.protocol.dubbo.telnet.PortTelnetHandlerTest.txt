@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.alibaba.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.038 sec
