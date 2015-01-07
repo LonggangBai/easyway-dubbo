@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.948" errors="0" skipped="43" tests="80" name="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\devTools\Java\jdk1.6.0_43\jre\bin"/>
+    <property name="java.vm.version" value="20.14-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Administrator\git\easyway-dubbo"/>
+    <property name="java.runtime.version" value="1.6.0_43-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\devTools\Java\jdk1.6.0_43\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\devTools\apache-maven-3.1.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\devTools\Java\jdk1.6.0_43\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\devTools\Java\jdk1.6.0_43\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;D:\devTools\apache-maven-3.1.0\bin;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\devTools\apache-ant-1.9.4-bin\apache-ant-1.9.4\bin;D:\devTools\Java\jdk1.6.0_43\bin;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;D:\devTools\sqlplus;D:\devTools\redis_win\redis\redisbin_x64;D:\devTools\thrift\thrift-0.9.1;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="D:\devTools\apache-maven-3.1.0\bin\..\boot\plexus-classworlds-2.4.2.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\devTools\Java\jdk1.6.0_43\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_43"/>
+    <property name="java.ext.dirs" value="D:\devTools\Java\jdk1.6.0_43\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\devTools\Java\jdk1.6.0_43\jre\lib\resources.jar;D:\devTools\Java\jdk1.6.0_43\jre\lib\rt.jar;D:\devTools\Java\jdk1.6.0_43\jre\lib\sunrsasign.jar;D:\devTools\Java\jdk1.6.0_43\jre\lib\jsse.jar;D:\devTools\Java\jdk1.6.0_43\jre\lib\jce.jar;D:\devTools\Java\jdk1.6.0_43\jre\lib\charsets.jar;D:\devTools\Java\jdk1.6.0_43\jre\lib\modules\jdk.boot.jar;D:\devTools\Java\jdk1.6.0_43\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="D:\devTools\apache-maven-3.1.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.007" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Person">
+    <skipped message="person type missing"/>
+  </testcase>
+  <testcase time="0.007" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_PersonList">
+    <skipped message="person type missing"/>
+  </testcase>
+  <testcase time="0.007" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_PersonSet">
+    <skipped message="person type missing"/>
+  </testcase>
+  <testcase time="0.007" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_IntPersonMap">
+    <skipped message="FastJson bug: com.alibaba.fastjson.JSONException: illegal identifier : 1"/>
+  </testcase>
+  <testcase time="0.007" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_StringPersonMap">
+    <skipped message="person type missing"/>
+  </testcase>
+  <testcase time="0.007" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_StringPersonListMap">
+    <skipped message="person type missing"/>
+  </testcase>
+  <testcase time="0.007" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_PersonListList">
+    <skipped message="person type missing"/>
+  </testcase>
+  <testcase time="0.007" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_BytesRange">
+    <skipped/>
+  </testcase>
+  <testcase time="0.007" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_boolArray">
+    <skipped message="bool[] type missing to JSONArray"/>
+  </testcase>
+  <testcase time="0.008" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_charArray">
+    <skipped message="FastJson bug: com.alibaba.fastjson.JSONException: create asm serilizer error, class char"/>
+  </testcase>
+  <testcase time="0.008" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_charArray_withType">
+    <skipped message="FastJson bug: com.alibaba.fastjson.JSONException: create asm serilizer error, class char"/>
+  </testcase>
+  <testcase time="0.008" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_shortArray">
+    <skipped message="short[] type missing to JSONArray"/>
+  </testcase>
+  <testcase time="0.008" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_intArray">
+    <skipped message="int[] type missing to JSONArray"/>
+  </testcase>
+  <testcase time="0.008" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_longArray">
+    <skipped message="long[] type missing to JSONArray"/>
+  </testcase>
+  <testcase time="0.008" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_floatArray">
+    <skipped message="float[] type missing to JSONArray"/>
+  </testcase>
+  <testcase time="0.008" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_doubleArray">
+    <skipped message="double[] type missing to JSONArray"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_StringArray">
+    <skipped message="String[] type missing to JSONArray"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_IntegerArray">
+    <skipped message="Integer[] type missing to JSONArray"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_EnumArray">
+    <skipped message="Integer[] type missing to JSONArray"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_SPerson">
+    <skipped message="SPerson type missing"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_BizException">
+    <skipped message="BizException type missing to Map"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_BizExceptionNoDefaultConstructor">
+    <skipped message="BizExceptionNoDefaultConstructor type missing to Map"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_BizExceptionNoDefaultConstructor_WithType">
+    <skipped message="NoDefaultConstructor"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_enum">
+    <skipped message="Enum type missing to String"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Date">
+    <skipped message="type mising to Long"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Time">
+    <skipped message="type mising to Long"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Time_withType">
+    <skipped message="com.alibaba.fastjson.JSONException: create asm deserializer error, java.sql.Time"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_ByteWrap">
+    <skipped message="type mising to Integer"/>
+  </testcase>
+  <testcase time="0.009" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_LongWrap">
+    <skipped message="type mising to Integer"/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_BigInteger">
+    <skipped message="type mising to Long"/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_StringSet">
+    <skipped message="String set missing to JSONArray"/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_LinkedHashMap">
+    <skipped message="LinkedHashMap type missing to Map"/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_SPersonList">
+    <skipped message="person type missing"/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_SPersonSet">
+    <skipped message="person type missing"/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_IntSPersonMap">
+    <skipped message="FastJson bug: com.alibaba.fastjson.JSONException: illegal identifier : 1"/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_StringSPersonMap">
+    <skipped message="person type missing"/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_StringSPersonListMap">
+    <skipped message="person type missing"/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_SPersonListList">
+    <skipped message="person type missing"/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_BigPerson">
+    <skipped message="BigPerson type missing"/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_MediaContent">
+    <skipped message="MediaContent type missing"/>
+  </testcase>
+  <testcase time="0.01" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_MultiObject">
+    <skipped message="type missing"/>
+  </testcase>
+  <testcase time="0.439" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_MediaContent_badStream"/>
+  <testcase time="0.014" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_MediaContent_WithType_badStream"/>
+  <testcase time="0.014" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_LoopReference">
+    <skipped/>
+  </testcase>
+  <testcase time="0.014" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_URL_mutable_withType">
+    <skipped/>
+  </testcase>
+  <testcase time="0.008" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Person_withType"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Bool"/>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Bool_Multi"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Byte"/>
+  <testcase time="0.003" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Byte_Multi"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Short"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Integer"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Long"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Float"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Double"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_UtfString"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Bytes"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_boolArray_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_shortArray_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_intArray_withType"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_longArray_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_floatArray_withType"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_doubleArray_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_StringArray_withType"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_IntegerArray_withType"/>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_EnumArray_withType"/>
+  <testcase time="0.008" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_SPerson_withType"/>
+  <testcase time="0.019" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_BizException_WithType"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_enum_withType"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_Date_withType"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_ByteWrap_withType"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_LongWrap_withType"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_BigInteger_withType"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_BigDecimal"/>
+  <testcase time="0.001" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_BigDecimal_withType"/>
+  <testcase time="0.002" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_StringList_asListReturn"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_StringArrayList"/>
+  <testcase time="0.046" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_BigPerson_WithType"/>
+  <testcase time="0.015" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_MediaContent_WithType"/>
+  <testcase time="0" classname="com.alibaba.dubbo.common.serialize.serialization.FastJsonSerializationTest" name="test_MultiObject_WithType"/>
+</testsuite>
